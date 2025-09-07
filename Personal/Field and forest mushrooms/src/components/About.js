@@ -4,6 +4,7 @@ import MultiLingualContent from "../languages/MultiLingualContent";
 import decorative from "../assets/decoratives/2.png";
 import logo from "../assets/images/logo2.jpg";
 import sign from "../assets/decoratives/sign.png";
+import article from "../assets/articles/מאמר.pdf";
 import articleTypes from "../assets/articles/סוגים חדשים - מאמר.docx";
 import { Link } from "react-router-dom";
 
@@ -67,9 +68,9 @@ const About = () => {
             <h4>
               שמחים לצרף את המאמר על מינים שבדקנו גנטית ופורסמו לראשונה בישראל:
             </h4>
-            <a href="https://brill.com/view/journals/ijps/aop/article-10.1163-22238980-bja10113/article-10.1163-22238980-bja10113.xml">
-              לקריאת המאמר באתר Brill
-            </a>
+            <Link to={article} target="_blank" download>
+              להורדת קובץ המאמר
+            </Link>
             <br />
             <br />
             <br />

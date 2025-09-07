@@ -1317,6 +1317,7 @@ export const types = [
   { label: "חריפית - Russula", path: "russula" },
   { label: "חרירית - Gyroporus", path: "gyroporus" },
   { label: "טבורית - Omphalotus", path: "omphalotus" },
+  { label: "טורנדיה נאה - Torrendia", path: "torrendia" },
   { label: "יפענית - Terena", path: "terena" },
   {
     label: "ירוקת דפים קיצית – Molybdites-Chlorophyllum",

@@ -343,6 +343,12 @@ export const navItems = [
             path: "/information/various-phenomena/spore-spreading",
             cName: "submenu-item",
           },
+          {
+            id: 8,
+            title: "parasiticPlantsOnFungi",
+            path: "/information/various-phenomena/parasitic-plants-on-fungi",
+            cName: "submenu-item",
+          },
         ],
       },
     ],

@@ -14,6 +14,7 @@ import "./style/app.css";
 import Tzivonit from "./components/typesAndSpecies/sub-pages/Tzivonit";
 import WeatherConditions from "./components/information/informationSubPages/WeatherConditions";
 import Hadurit from "./components/typesAndSpecies/sub-pages/Hadurit";
+import Torrendia from "./components/typesAndSpecies/sub-pages/Torrendia";
 
 const storageLanguage = getStorageLanguage();
 
@@ -59,6 +60,9 @@ function App() {
   );
   const SporeSpreading = React.lazy(() =>
     import("./components/information/sub-pages/SporeSpreading")
+  );
+  const ParasiticPlantsOnFungi = React.lazy(() =>
+    import("./components/information/sub-pages/ParasiticPlantsOnFungi")
   );
   const TheWitchCircle = React.lazy(() =>
     import("./components/information/sub-pages/TheWitchCircle")
@@ -609,6 +613,12 @@ function App() {
             <Route exact path="/information/various-phenomena/spore-spreading">
               <SporeSpreading />
             </Route>
+            <Route
+              exact
+              path="/information/various-phenomena/parasitic-plants-on-fungi"
+            >
+              <ParasiticPlantsOnFungi />
+            </Route>
             <Route exact path="/information/taxonomy/what-is-taxonomy">
               <Taxonomy />
             </Route>
@@ -935,6 +945,12 @@ function App() {
               path="/types-and-species/type-identification/type/panaeolus"
             >
               <Tzivonit />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/torrendia"
+            >
+              <Torrendia />
             </Route>
             <Route
               exact
