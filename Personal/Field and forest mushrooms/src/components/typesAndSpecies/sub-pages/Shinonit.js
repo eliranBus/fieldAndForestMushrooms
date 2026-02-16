@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import shinonit1 from "../../../assets/images/shinonit1.jpeg";
+import shinonit0 from "../../../assets/images/shinonit0.jpeg";
 import BackButton from "../../backButton";
 
 const Shinonit = () => {
@@ -33,9 +34,6 @@ const Shinonit = () => {
             <MultiLingualContent contentID="shinonitText3" />
           </p>
           <br />
-          <p>
-            <MultiLingualContent contentID="shinonitText4" />
-          </p>
           <br />
           <p>
             <b>
@@ -54,12 +52,35 @@ const Shinonit = () => {
               <MultiLingualContent contentID="shinonitText8Link" />
             </a>
           </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <LazyLoadImage src={shinonit1} alt="שינונית" />
+              <p>
+                <MultiLingualContent contentID="shinonitImg1" />
+              </p>
+            </div>
+          </div>
+          <br />
+          <p>
+            <b>
+              <MultiLingualContent contentID="shinonitText9Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="shinonitText10" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="shinonitText11" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="shinonitText12" />
+          </p>
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
-            <LazyLoadImage src={shinonit1} alt="שינונית" />
+            <LazyLoadImage src={shinonit0} alt="שינונית" />
             <p>
-              <MultiLingualContent contentID="shinonitImg1" />
+              <MultiLingualContent contentID="shinonitImg2" />
             </p>
           </div>
         </div>

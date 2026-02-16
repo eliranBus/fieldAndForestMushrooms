@@ -214,7 +214,10 @@ z-index: 1000;
 .typesAndSpeciesText {
   max-width: 70%;
   margin: 0 0 10px !important;
+  font-size: 1.3em;
+  line-height: 2;
   text-align: right;
+  font-weight: 400 !important;
 }
 
 .typesAndSpeciesBullets, .toursAndConferencesBullets {
@@ -610,6 +613,7 @@ z-index: 1000;
 }
 .logo {
   font-size: 1.6em !important;
+  font-family: "RubikDoodleShadow";
   font-weight: 500;
   text-decoration: none;
   color: #000;
@@ -755,6 +759,15 @@ z-index: 1000;
     height: 850px;
   }
 }
+
+.news-text p{
+  font-size: 16px !important;
+  line-height: 1.4 !important;
+}
+.news-text a{
+  font-size: 16px !important;
+  line-height: 1.4 !important;
+}
 @media only screen and (max-width: 1300px) {
   .news {
     height: 700px;
@@ -766,12 +779,12 @@ z-index: 1000;
     position: relative;
   }
   .news-text p{
-    font-size: 16px !important;
+    font-size: 14px !important;
     line-height: 1.5 !important;
 
   }
   .news-text h4 {
-    font-size: 32px;
+    font-size: 28px;
     margin: 0 0 10px;
   }
   .sign-img { 
@@ -788,20 +801,23 @@ z-index: 1000;
     height: 640px;
   }
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   .news {
-    height: 500px;
+    height: 600px;
     width: 100%;
   }
   .news-text{
-    padding: 20px 50px !important;
+    padding: 40px 50px !important;
     z-index: 10;
     position: relative;
   }
   .news-text p{
-    font-size: 14px !important;
-    line-height: 1.5 !important;
-
+    font-size: 12px !important;
+    line-height: 1.3 !important;
+  }
+  .news-text a{
+    font-size: 12px !important;
+    line-height: 1.3 !important;
   }
   .news-text h4 {
     font-size: 20px;
@@ -812,24 +828,28 @@ z-index: 1000;
     top: 50px;
     position: absolute;
     width: 120%;
-    height: 450px;
+    height: 600px;
     margin: 0 auto;
     left: -10%;
   }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
   .news {
-    height: 450px;
+    height: 650px;
     width: 100%;
   }
   .news-text{
-    padding: 30px 120px !important;
+    padding: 50px 90px !important;
     z-index: 10;
     position: relative;
   }
   .news-text p{
-    font-size: 16px !important;
-    line-height: 1.3 !important;
+    font-size: 12px !important;
+    line-height: 1.1 !important;
+  }
+  .news-text a{
+    font-size: 12px !important;
+    line-height: 1.1 !important;
   }
   .news-text h4 {
     font-size: 22px;
@@ -846,7 +866,7 @@ z-index: 1000;
 }
   @media only screen and (max-width: 700px) {
   .news {
-    height: 400px;
+    height: 600px;
   }
   .news-text{
     padding: 10px 120px !important;
@@ -869,7 +889,7 @@ z-index: 1000;
     font-size: 16px;
   }
   .news-text p{
-    font-size: 16px !important;
+    font-size: 13px !important;
   }
   .sign-img { 
     height: 100%;
@@ -885,8 +905,8 @@ z-index: 1000;
     z-index: 10;
   }
   .news-text p{
-    font-size: 16px !important;
-    line-height: 1.3 !important;
+    font-size: 10px !important;
+    line-height: 1.2 !important;
   }
   .news-text h4 {
     font-size: 18px;
@@ -933,10 +953,10 @@ z-index: 1000;
 
 @media only screen and (max-width: 400px) {
 .news {
-  height: 300px;
+  height: 550px;
 }
 .news-text{
-  padding: 30px 20px !important;
+  padding: 50px 20px !important;
 }
 .news-text p{
   font-size: 14px !important;
@@ -1157,8 +1177,6 @@ header h1 {
   font-weight: 300;
   margin: 0;
   color: black;
-  text-shadow: 2px 5px 7px black;
-  -webkit-text-stroke: 2px black;
   /* width and color */
 }
 
@@ -1202,7 +1220,18 @@ header h1 {
   }
 }
 
+.aboutImgWrapper {
+  width: 100%;
+ text-align: center;
+}
+
+.aboutImgWrapper img {
+  transform: rotate(90deg);
+  max-width: 10vw;
+}
+
 .inner-section h2 {
+  font-family: "RubikDoodleShadow";
   text-align: center;
   font-size: 3em;
 }
@@ -1229,6 +1258,13 @@ header h1 {
 }
 .whatsInSite {
   font-size: 2em;
+}
+.img-wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+.img-wrapper img {
+  width: 140px;
 }
 @media only screen and (max-width: 600px) {
   .inner-section {
@@ -1627,16 +1663,16 @@ header h1 {
 
 .folklore-bg {
   background-image: url("../assets/images/wooden-background.jpeg");
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
   opacity: 0.6;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 @media only screen and (max-width: 800px) {
@@ -2077,7 +2113,7 @@ div[class*="columnHeaderTitle"] {
 }
 
 .typeGridCell .MuiPaper-elevation:first-child {
-  background-color: #f5f5f5f5 !important;
+  background-color: white;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -2291,6 +2327,11 @@ button:hover, .button-chosen {
   justify-content: center;
   align-items: center;
   margin: 20px 0 40px;
+}
+
+.typesKeyBox {
+  background-color: rgba(213, 214, 215, 0.235);
+  padding: 20px;
 }
 
 .MuiTypography-subtitle1 {
@@ -2521,4 +2562,38 @@ a.back-to-top {
 .folklore-wrapper .swiper .swiper-slide {
   padding-bottom: 40px !important;
   height: min-content !important;
+}
+
+.about-map-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.about-map-wrapper img {
+  max-width: 250px !important;
+}
+
+@media only screen and (max-width: 650px) {
+  .about-map-wrapper img {
+    max-width: 150px !important;
+  }
+}
+
+.types-table {
+  width: 100%;
+}
+
+.types-table .types-table-name {
+  width: 20%;
+  text-align: right;
+}
+
+.types-table td {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.imgRotate {
+  transform: rotate(90deg);
+  margin-right: 50px;
 }

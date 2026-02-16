@@ -4,9 +4,7 @@ import MultiLingualContent from "../languages/MultiLingualContent";
 import decorative from "../assets/decoratives/2.png";
 import logo from "../assets/images/logo2.jpg";
 import sign from "../assets/decoratives/sign.png";
-import article from "../assets/articles/מאמר.pdf";
-import articleTypes from "../assets/articles/סוגים חדשים - מאמר.docx";
-import { Link } from "react-router-dom";
+import flies from "../assets/images/flies.jpeg";
 
 const About = () => {
   return (
@@ -65,27 +63,27 @@ const About = () => {
             <MultiLingualContent contentID="news" />
           </h3>
           <div className="news-text">
-            <h4>
-              שמחים לצרף את המאמר על מינים שבדקנו גנטית ופורסמו לראשונה בישראל:
-            </h4>
-            <Link to={article} target="_blank" download>
-              להורדת קובץ המאמר
-            </Link>
-            <br />
-            <br />
+            <h4>פטרייה משמשת מצע לגידול חרקים</h4>
+            <p>
+              אכילת פטריות מהטבע ומגידולים גוברת בתרבות שלנו ועולות שאלות מתחום
+              צמחונות, טבעונות כשרות ומזיקים בגידול פטריות. מבין החרקים יש החיים
+              במצע רבגוני, כולל פטריות, ויש שפטריות הן המצע היחידי בחייהם. לאחר
+              הטלת הביצים בוקעים זחלים או רימות (לא תולעים !) הניזונים מבשר
+              ומרקמות הפטרייה. שלב הבא יהיה הגולם וממנו יבקע הבוגר, ואז יוצא ועף
+              להתחיל מחזור במצע חדש.
+            </p>
             <br />
             <p>
-              ניתן לעיין בשמות העבריים והאוספים של המינים החדשים שבמאמר בקובץ
-              הבא:
-              <br />
-              <br />
-              <Link to={articleTypes} target="_blank" download>
-                שמות עבריים והאוספים של המינים החדשים במאמר
-              </Link>
+              בעולם ידועים סוגי חיפושיות, עשים, זבובים ועוד, החיים וניזונים רק
+              מתפטיר או גוף פרי של פטרייה. במוזיאון הטבע הכנסנו גושיות בוגרות
+              לתוך בית גידול קטן ובקעו בו זבובים מהמין Muscina levida שלא היה
+              ידוע בישראל, קרוב לזבוב הבית אך מעט שונה וגדול ממנו. בתוך הפטרייה
+              קשתנית טבעתית זוהתה חיפושית מהסוג חדקונית. נמשיך ונבדוק מינים
+              נוספים.
             </p>
-            {/* <div className="news-img-wrapper">
-              <img src={amanit20} alt="lilo" className="news-img" />
-            </div> */}
+            <div className="aboutImgWrapper">
+              <LazyLoadImage src={flies} alt="אמנית" />
+            </div>
           </div>
           <LazyLoadImage src={sign} alt="" className="sign-img" />
         </div>

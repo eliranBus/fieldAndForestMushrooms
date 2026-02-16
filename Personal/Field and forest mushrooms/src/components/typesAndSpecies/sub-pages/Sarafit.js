@@ -4,6 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import sarafit1 from "../../../assets/images/sarafit1.jpg";
 import sarafit2 from "../../../assets/images/sarafit2.jpg";
+import sarafit3 from "../../../assets/images/sarafit3.jpeg";
 import BackButton from "../../backButton";
 
 const Sarafit = () => {
@@ -40,9 +41,6 @@ const Sarafit = () => {
           <p>
             <MultiLingualContent contentID="sarafitText5" />
           </p>
-          <p>
-            <MultiLingualContent contentID="sarafitText6" />
-          </p>
           <div className="informationImages">
             <div className="imgWrapper">
               <LazyLoadImage src={sarafit1} alt="שרפית" />
@@ -51,9 +49,15 @@ const Sarafit = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage src={sarafit2} alt="שרפית" />
+              <LazyLoadImage src={sarafit3} alt="שרפית" />
               <p>
                 <MultiLingualContent contentID="sarafitImg2" />
+              </p>
+            </div>
+            <div className="imgWrapper">
+              <LazyLoadImage src={sarafit2} alt="שרפית" />
+              <p>
+                <MultiLingualContent contentID="sarafitImg3" />
               </p>
             </div>
           </div>

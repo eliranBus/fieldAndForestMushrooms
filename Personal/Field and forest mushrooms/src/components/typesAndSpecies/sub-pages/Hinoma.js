@@ -12,6 +12,9 @@ import hinoma5 from "../../../assets/images/hinoma5.jpg";
 import hinoma6 from "../../../assets/images/hinoma6.jpg";
 import hinoma7 from "../../../assets/images/hinoma7.jpg";
 import hinoma8 from "../../../assets/images/hinoma8.jpg";
+import hinoma10 from "../../../assets/images/hinoma10.jpeg";
+import hinoma11 from "../../../assets/images/hinoma11.jpeg";
+import hinoma12 from "../../../assets/images/hinoma12.jpeg";
 import BackButton from "../../backButton";
 
 const Hinoma = () => {
@@ -45,9 +48,53 @@ const Hinoma = () => {
           <p>
             <MultiLingualContent contentID="hinomaText5" />
           </p>
+          <br />
           <p>
-            <MultiLingualContent contentID="hinomaText6" />
+            <MultiLingualContent contentID="hinomaText51" />
           </p>
+          <p>
+            <b>
+              <MultiLingualContent contentID="hinomaText52" />
+            </b>
+            <MultiLingualContent contentID="hinomaText521" />
+          </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <LazyLoadImage src={hinoma10} alt="הינומה" />
+              <p>
+                <MultiLingualContent contentID="hinoma52Img" />
+              </p>
+            </div>
+          </div>
+          <p>
+            <b>
+              <MultiLingualContent contentID="hinomaText53" />
+            </b>
+            <MultiLingualContent contentID="hinomaText531" />
+          </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <LazyLoadImage src={hinoma11} alt="הינומה" />
+              <p>
+                <MultiLingualContent contentID="hinoma53Img" />
+              </p>
+            </div>
+          </div>
+          <p>
+            <b>
+              <MultiLingualContent contentID="hinomaText54" />
+            </b>
+            <MultiLingualContent contentID="hinomaText541" />
+          </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <LazyLoadImage src={hinoma12} alt="הינומה" />
+              <p>
+                <MultiLingualContent contentID="hinoma54Img" />
+              </p>
+            </div>
+          </div>
+          <br />
           <p>
             <MultiLingualContent contentID="shcharcharitText7" />
             <div className="typeTable">

@@ -8,6 +8,8 @@ import behukit3 from "../../../assets/images/behukit3.jpg";
 import behukit4 from "../../../assets/images/behukit4.jpeg";
 import behukit5 from "../../../assets/images/behukit5.jpeg";
 import behukit6 from "../../../assets/images/behukit6.jpg";
+import behukit7 from "../../../assets/images/bahukit7.jpeg";
+import behukit8 from "../../../assets/images/bahukit8.jpeg";
 import BackButton from "../../backButton";
 
 const Behukit = () => {
@@ -64,12 +66,12 @@ const Behukit = () => {
             <MultiLingualContent contentID="behukitText6" />
           </p>
           <br />
+          <br />
           <p>
             <b>
               <MultiLingualContent contentID="behukitText7Bold" />
             </b>
           </p>
-          <br />
           <p>
             <MultiLingualContent contentID="behukitText7" />
           </p>
@@ -107,7 +109,6 @@ const Behukit = () => {
               <MultiLingualContent contentID="behukitText8Bold" />
             </b>
           </p>
-          <br />
           <p>
             <MultiLingualContent contentID="behukitText8" />
           </p>
@@ -123,6 +124,38 @@ const Behukit = () => {
             <LazyLoadImage src={behukit6} alt="בהוקית" />
             <p>
               <MultiLingualContent contentID="behukitImg6" />
+            </p>
+          </div>
+        </div>
+        <br />
+        <p>
+          <b>
+            <MultiLingualContent contentID="behukitText9Bold" />
+          </b>
+        </p>
+        <p>
+          <MultiLingualContent contentID="behukitText9" />
+        </p>
+        <p>
+          <MultiLingualContent contentID="behukitText10" />
+        </p>
+        <p>
+          <MultiLingualContent contentID="behukitText11" />
+        </p>
+        <p>
+          <MultiLingualContent contentID="behukitText12" />
+        </p>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <LazyLoadImage src={behukit7} alt="בהוקית" />
+            <p>
+              <MultiLingualContent contentID="behukitImg7" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <LazyLoadImage src={behukit8} alt="בהוקית" />
+            <p>
+              <MultiLingualContent contentID="behukitImg8" />
             </p>
           </div>
         </div>

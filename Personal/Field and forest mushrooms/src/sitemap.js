@@ -180,6 +180,11 @@ const urls = [
     priority: 0.8,
   },
   {
+    url: "/news",
+    changefreq: "monthly",
+    priority: 0.8,
+  },
+  {
     url: "/information/nutritional-and-medicinal-value-for-humans",
     changefreq: "monthly",
     priority: 0.8,

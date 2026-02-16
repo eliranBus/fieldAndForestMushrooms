@@ -7,6 +7,7 @@ import pinit2 from "../../../assets/images/pinit2.jpg";
 import pinit3 from "../../../assets/images/pinit3.jpg";
 import pinit4 from "../../../assets/images/pinit4.jpg";
 import pinit5 from "../../../assets/images/pinit5.jpg";
+import pinit6 from "../../../assets/images/pinit6.jpeg";
 import BackButton from "../../backButton";
 
 const Pinit = () => {
@@ -97,6 +98,29 @@ const Pinit = () => {
               <LazyLoadImage src={pinit5} alt="פינית" />
               <p>
                 <MultiLingualContent contentID="pinitImg5" />
+              </p>
+            </div>
+          </div>
+          <p>
+            <b>
+              <MultiLingualContent contentID="pinitText9Bold" />
+            </b>
+          </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="pinitText10" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="pinitText11" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="pinitText12" />
+          </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <LazyLoadImage src={pinit6} alt="פינית" />
+              <p>
+                <MultiLingualContent contentID="pinitImg6" />
               </p>
             </div>
           </div>

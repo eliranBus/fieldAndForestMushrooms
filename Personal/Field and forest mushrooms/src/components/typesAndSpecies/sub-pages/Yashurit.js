@@ -43,6 +43,9 @@ const Yashurit = () => {
           </p>
           <p>
             <MultiLingualContent contentID="yashuritText4" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="yashuritText5" />
             <Link to={table} target="_blank" download>
               <MultiLingualContent contentID="yashuritText5Link" />
             </Link>

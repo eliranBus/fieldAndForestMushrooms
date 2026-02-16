@@ -14,6 +14,7 @@ import amanit8 from "../../../assets/images/amanit8.jpg";
 import amanit9 from "../../../assets/images/amanit9.jpg";
 import amanit10 from "../../../assets/images/amanit10.jpg";
 import table from "../../../assets/type-tables/הסוג אמנית.xls";
+import article from "../../../assets/articles/יערן בקק''ל הורעל.pdf";
 import BackButton from "../../backButton";
 
 const Amanitas = () => {
@@ -65,8 +66,15 @@ const Amanitas = () => {
           <p>
             <MultiLingualContent contentID="amanitasText9" />
           </p>
+          <br />
           <p>
-            <MultiLingualContent contentID="amanitasText10" />
+            <Link to={article} target="_blank" download>
+              <MultiLingualContent contentID="amanitasText10" />
+            </Link>
+          </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="amanitasText11" />
           </p>
           <div className="typeTable">
             <Link to={table} target="_blank" download>

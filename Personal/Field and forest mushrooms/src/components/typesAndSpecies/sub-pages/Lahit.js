@@ -30,15 +30,9 @@ const Lahit = () => {
           <p>
             <MultiLingualContent contentID="lahitText1" />
           </p>
-          <br />
-          <p>
-            <MultiLingualContent contentID="lahitText2" />
-          </p>
-          <br />
           <p>
             <MultiLingualContent contentID="lahitText3" />
           </p>
-          <br />
           <p>
             <MultiLingualContent contentID="lahitText4" />
           </p>

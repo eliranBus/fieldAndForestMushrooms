@@ -5,6 +5,7 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import tzitzanit1 from "../../../assets/images/tzitzanit1.jpeg";
 import tzitzanit2 from "../../../assets/images/tzitzanit2.jpeg";
 import tzitzanit3 from "../../../assets/images/tzitzanit3.jpeg";
+import tzitzanit4 from "../../../assets/images/tzitzanit4.jpeg";
 import BackButton from "../../backButton";
 
 const Tzitzanit = () => {
@@ -58,21 +59,34 @@ const Tzitzanit = () => {
                 <MultiLingualContent contentID="tzitzanitImg1" />
               </p>
             </div>
-          </div>
-          <p>
-            <b>
-              <MultiLingualContent contentID="tzitzanitText6Bold" />
-            </b>
-          </p>
-          <p>
-            <MultiLingualContent contentID="tzitzanitText7" />
-          </p>
-          <div className="informationImages">
             <div className="imgWrapper">
               <LazyLoadImage src={tzitzanit2} alt="ציצנית" />
               <p>
                 <MultiLingualContent contentID="tzitzanitImg2" />
               </p>
+            </div>
+          </div>
+          <p>
+            <b>
+              <MultiLingualContent contentID="tzitzanitText12Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="tzitzanitText13" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="tzitzanitText14" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="tzitzanitText15" />
+          </p>
+          <br />
+          <p>
+            <MultiLingualContent contentID="tzitzanitText16" />
+          </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <LazyLoadImage src={tzitzanit4} alt="ציצנית" />
             </div>
           </div>
           <p>

@@ -2,8 +2,9 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
-import tzmudit1 from "../../../assets/images/tzmudit1.jpg";
-import tzmudit2 from "../../../assets/images/tzmudit2.jpg";
+import tzmudit1 from "../../../assets/images/tzmudit1.jpeg";
+import tzmudit2 from "../../../assets/images/tzmudit2.jpeg";
+import tzmudit3 from "../../../assets/images/tzmudit3.jpeg";
 import BackButton from "../../backButton";
 
 const Tzmudit = () => {
@@ -13,7 +14,7 @@ const Tzmudit = () => {
         <title>פטרידע - הפטריה צמודית</title>
         <meta
           name="description"
-          content="הפטריה צמודית - Phellinus + Fuscoporia + Fomitiporia: תאור, זיהוי ותמונות"
+          content="הפטריה צמודית - Fuscoporia: תאור, זיהוי ותמונות"
         />
       </Helmet>
       <BackButton path="/#types-and-species" />
@@ -34,6 +35,20 @@ const Tzmudit = () => {
           <p>
             <MultiLingualContent contentID="tzmuditText4" />
           </p>
+          <br />
+          <p>
+            <b>
+              <MultiLingualContent contentID="tzmuditText5Bold" />
+            </b>
+          </p>
+          <p>
+            <b>
+              <MultiLingualContent contentID="tzmuditText6Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="tzmuditText7" />
+          </p>
         </div>
         <div className="informationImages">
           <div className="imgWrapper">
@@ -43,35 +58,34 @@ const Tzmudit = () => {
             </p>
           </div>
         </div>
+        <br />
         <div className="informationText">
-          <br />
           <p>
-            <MultiLingualContent contentID="tzmuditText5" />
+            <b>
+              <MultiLingualContent contentID="tzmuditText8Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="tzmuditText9" />
           </p>
           <br />
           <p>
             <b>
-              <MultiLingualContent contentID="tzmuditText6Bold" />
+              <MultiLingualContent contentID="tzmuditText10Bold" />
             </b>
-          </p>
-          <p>
-            <MultiLingualContent contentID="tzmuditText7" />
-          </p>
-          <p>
-            <MultiLingualContent contentID="tzmuditText8" />
-          </p>
-          <br />
-          <p>
-            <b>
-              <MultiLingualContent contentID="tzmuditText9Bold" />
-            </b>
-          </p>
-          <p>
-            <MultiLingualContent contentID="tzmuditText10" />
           </p>
           <p>
             <MultiLingualContent contentID="tzmuditText11" />
           </p>
+          <br />
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <LazyLoadImage src={tzmudit2} alt="צמודית" />
+              <p>
+                <MultiLingualContent contentID="tzmuditImg2" />
+              </p>
+            </div>
+          </div>
           <br />
           <p>
             <b>
@@ -82,28 +96,15 @@ const Tzmudit = () => {
             <MultiLingualContent contentID="tzmuditText13" />
           </p>
           <p>
+            <div className="informationImages">
+              <div className="imgWrapper">
+                <LazyLoadImage src={tzmudit3} alt="צמודית" />
+                <p>
+                  <MultiLingualContent contentID="tzmuditImg3" />
+                </p>
+              </div>
+            </div>
             <MultiLingualContent contentID="tzmuditText14" />
-          </p>
-        </div>
-        <div className="informationImages">
-          <div className="imgWrapper">
-            <LazyLoadImage src={tzmudit2} alt="צמודית" />
-            <p>
-              <MultiLingualContent contentID="tzmuditImg2" />
-            </p>
-          </div>
-        </div>
-        <div className="informationText">
-          <p>
-            <b>
-              <MultiLingualContent contentID="tzmuditText15Bold" />
-            </b>
-          </p>
-          <p>
-            <MultiLingualContent contentID="tzmuditText16" />
-          </p>
-          <p>
-            <MultiLingualContent contentID="tzmuditText17" />
           </p>
         </div>
       </>

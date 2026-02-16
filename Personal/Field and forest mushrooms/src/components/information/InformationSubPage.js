@@ -29,7 +29,11 @@ const InformationSubPage = ({ subtitleName }) => {
         <ul className="informationBullets">
           {informationBullets.map(({ title, path }) => (
             <li key={title}>
-              <a href={path}>
+              <a
+                href={path}
+                target={path.startsWith("http") ? "_blank" : ""}
+                rel={path.startsWith("http") ? "noopener noreferrer" : ""}
+              >
                 <MultiLingualContent contentID={title} />
               </a>
             </li>

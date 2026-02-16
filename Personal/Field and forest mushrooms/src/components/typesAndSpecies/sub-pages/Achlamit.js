@@ -4,6 +4,8 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import achlamit1 from "../../../assets/images/achlamit1.jpg";
 import achlamit2 from "../../../assets/images/achlamit2.jpg";
+import achlamit30 from "../../../assets/images/achlamit30.jpeg";
+import achlamit31 from "../../../assets/images/achlamit31.jpeg";
 import BackButton from "../../backButton";
 
 const Achlamit = () => {
@@ -53,6 +55,20 @@ const Achlamit = () => {
           <p>
             <MultiLingualContent contentID="achlamitText7" />
           </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <LazyLoadImage src={achlamit30} alt="אחלמית" />
+              <p>
+                <MultiLingualContent contentID="achlamitImg30" />
+              </p>
+            </div>
+            <div className="imgWrapper">
+              <LazyLoadImage src={achlamit31} alt="אחלמית" />
+              <p>
+                <MultiLingualContent contentID="achlamitImg30" />
+              </p>
+            </div>
+          </div>
           <br />
           <p>
             <b>

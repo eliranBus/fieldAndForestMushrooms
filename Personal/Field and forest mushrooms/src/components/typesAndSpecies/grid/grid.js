@@ -78,7 +78,7 @@ const ComplexGrid = ({ data }) => (
         <MultiLingualContent contentID={"typesKey2"} />
       </p>
     </div>
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ flexGrow: 1 }} className="typesKeyBox">
       <Grid container spacing={4}>
         {dataRenderer(data)}
       </Grid>

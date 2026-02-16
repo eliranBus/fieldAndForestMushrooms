@@ -16,7 +16,7 @@ import natufa11 from "../../../assets/images/natufa11.jpg";
 import natufa12 from "../../../assets/images/natufa12.jpeg";
 import natufa13 from "../../../assets/images/natufa13.jpeg";
 import natufa14 from "../../../assets/images/natufa14.jpeg";
-import natufa15 from "../../../assets/images/natufa15.jpg";
+import natufa20 from "../../../assets/images/natufa20.jpeg";
 import BackButton from "../../backButton";
 
 const Natufa = () => {
@@ -177,6 +177,9 @@ const Natufa = () => {
           </div>
           <div className="imgWrapper">
             <LazyLoadImage src={natufa11} alt="נטופה" />
+            <p>
+              <MultiLingualContent contentID="natufaImg101" />
+            </p>
           </div>
         </div>
         <div className="informationText">
@@ -221,9 +224,9 @@ const Natufa = () => {
             </p>
           </div>
           <div className="imgWrapper">
-            <LazyLoadImage src={natufa15} alt="נטופה" />
+            <LazyLoadImage src={natufa20} alt="נטופה" />
             <p>
-              <MultiLingualContent contentID="natufaImg14" />
+              <MultiLingualContent contentID="natufaImg20" />
             </p>
           </div>
         </div>

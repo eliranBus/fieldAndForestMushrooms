@@ -47,6 +47,9 @@ const Harifit = () => {
           <div className="informationImages">
             <div className="imgWrapper">
               <LazyLoadImage src={harifit1} alt="חריפית" />
+              <p>
+                <MultiLingualContent contentID="harifitImg0" />
+              </p>
             </div>
           </div>
           <br />
@@ -57,7 +60,7 @@ const Harifit = () => {
 
           <div className="typeTable">
             <Link to={table} target="_blank" download>
-              <MultiLingualContent contentID="amanitTableDownload" />
+              <MultiLingualContent contentID="harifitTableDownload" />
             </Link>
           </div>
 
@@ -76,12 +79,12 @@ const Harifit = () => {
               <MultiLingualContent contentID="harifitImg3" />
             </p>
           </div>
-          <div className="imgWrapper">
+          {/* <div className="imgWrapper">
             <LazyLoadImage src={harifit4} alt="חריפית" />
             <p>
               <MultiLingualContent contentID="harifitImg4" />
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="informationImages">
           <div className="imgWrapper">

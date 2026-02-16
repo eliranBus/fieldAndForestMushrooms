@@ -50,6 +50,10 @@ export const familyTypes = [
                     path: "type/gymnopilus",
                   },
                   {
+                    name: "סידית",
+                    path: "type/limacella",
+                  },
+                  {
                     name: "נירנית",
                     path: "type/agrocybe",
                   },
@@ -197,7 +201,7 @@ export const familyTypes = [
                   },
                   {
                     name: "לחלחה",
-                    path: "type/lachlacha",
+                    path: "type/hygrophorus",
                   },
                   {
                     name: "נטופה",
@@ -218,6 +222,10 @@ export const familyTypes = [
                   {
                     name: "הינומה",
                     path: "type/cortinarius",
+                  },
+                  {
+                    name: "שעירית",
+                    path: "type/tricholomella",
                   },
                 ],
               },
@@ -278,7 +286,7 @@ export const familyTypes = [
                   },
                   {
                     name: "סיבית",
-                    path: "type/sivit",
+                    path: "type/inocybe",
                   },
                   {
                     name: "שברירית",
@@ -321,7 +329,7 @@ export const familyTypes = [
                   },
                   {
                     name: "סוככית",
-                    path: "type/sochachit",
+                    path: "type/tubaria",
                   },
                   {
                     name: "צנומה",
@@ -445,7 +453,7 @@ export const familyTypes = [
                   },
                   {
                     name: "שרועית",
-                    path: "type/sruit",
+                    path: "type/tapinella",
                   },
                 ],
               },
@@ -609,31 +617,6 @@ export const familyTypes = [
     avatar: six,
     structures: {
       1: {
-        name: "חסרות רגל",
-        sizes: {
-          1: {
-            name: "גודל לא רלוונטי",
-            platforms: {
-              1: {
-                name: "על הקרקע",
-                types: [
-                  {
-                    name: "הדורית",
-                    description: " - הצבע לבן, גדולה יחסית.",
-                    path: "type/boletopsis",
-                  },
-                  {
-                    name: "סרקודון",
-                    description: " - הצבע חום בהיר או כהה, הגודל קטן יחסית.",
-                    path: "type/sarkodon",
-                  },
-                ],
-              },
-            },
-          },
-        },
-      },
-      2: {
         name: "עם רגל",
         sizes: {
           1: {
@@ -653,6 +636,16 @@ export const familyTypes = [
                     description:
                       " - רגל ארוכה יחסית, לצעירה צבע הכובע חום בהיר, השיניים באורך עד 5 מ''מ.",
                     path: "type/hydnellum",
+                  },
+                  {
+                    name: "הדורית",
+                    description: " - הצבע לבן, גדולה יחסית.",
+                    path: "type/boletopsis",
+                  },
+                  {
+                    name: "סרקודון",
+                    description: " - הצבע חום בהיר או כהה, הגודל קטן יחסית.",
+                    path: "type/sarcodon",
                   },
                 ],
               },
@@ -753,7 +746,7 @@ export const familyTypes = [
                   },
                   {
                     name: "צמודית",
-                    path: "type/phellinus",
+                    path: "type/fuscoporia",
                   },
                   {
                     name: "פתלתלית",
@@ -787,7 +780,7 @@ export const familyTypes = [
                   },
                   {
                     name: "סוליינית",
-                    path: "type/sulyanit",
+                    path: "type/coriolopsis",
                   },
                   {
                     name: "קשיחית",
@@ -952,7 +945,7 @@ export const familyTypes = [
                   },
                   {
                     name: "פנכית",
-                    path: "type/panchit",
+                    path: "type/barlaea",
                   },
                   {
                     name: "פכית",
@@ -995,8 +988,8 @@ export const familyTypes = [
                 name: "בתוך קרקע חולית",
                 types: [
                   {
-                    name: "כמהה",
-                    path: "type/kmeha",
+                    name: "כמהת חולות",
+                    path: "type/terfesia",
                   },
                   {
                     name: "כמהית",
@@ -1009,7 +1002,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "כמהת-יער",
-                    path: "type/kmehat-yaar",
+                    path: "type/Tuber",
                   },
                   {
                     name: "פקעית",
@@ -1022,11 +1015,11 @@ export const familyTypes = [
                 types: [
                   {
                     name: "דורנית",
-                    path: "type/doranit",
+                    path: "type/mycenastrum",
                   },
                   {
                     name: "פסיפסית",
-                    path: "type/psifasit",
+                    path: "type/pisolithus",
                   },
                   {
                     name: "שחומית",
@@ -1261,7 +1254,7 @@ export const familyTypes = [
                 types: [
                   {
                     name: "קרנית",
-                    path: "type/kranit",
+                    path: "type/calocera",
                   },
                 ],
               },
@@ -1292,17 +1285,21 @@ export const types = [
   { label: "אפרקדנית - Resupinus", path: "resupinus" },
   { label: "ארהניה - Arrhenia", path: "arrhenia" },
   { label: "בהוקית - Ganoderma", path: "ganoderma" },
+  { label: "בקבוקנית - Pilobolus", path: "pilobolus" },
   { label: "גביעונית - Cantharellus", path: "cantharellus" },
   { label: "גביעית - Helvella", path: "helvella" },
+  { label: "גולשנית - Rhodocybe", path: "rhodocybe" },
   { label: "גושית - Boletus", path: "boletus" },
   { label: "גושנית - Leccinum", path: "leccinum" },
   { label: "גחונית - Hypholoma", path: "hypholoma" },
   { label: "גידמית - Gymnopilus", path: "gymnopilus" },
   { label: "גללית - Bolbitius", path: "bolbitius" },
   { label: "גמישנית - Lentinus", path: "lentinus" },
+  { label: "דורנית - Mycenastrum", path: "mycenastrum" },
   { label: "דיואית - Coprinus", path: "coprinus" },
   { label: "דיואית - Coprinellus", path: "coprinellus" },
   { label: "דיואית - Coprinopsis", path: "coprinopsis" },
+  { label: "דיואית - Xerocoprinus", path: "xerocoprinus" },
   { label: "דיסקנית - Discina-Perlata", path: "discina" },
   { label: "דפדפנית - Gloeophyllum", path: "gloeophyllum" },
   { label: "דפונית - Lyophyllum", path: "lyophyllum" },
@@ -1325,22 +1322,25 @@ export const types = [
   },
   { label: "ישעורית - Tricholoma", path: "tricholoma" },
   { label: "כדורנית - Bovista", path: "bovista" },
-  { label: "כדורית - Calvatia", path: "calvatia" },
+  { label: "כדורית - Bovista", path: "bovista" },
   { label: "כוכבנית - Geastrum", path: "geastrum" },
   { label: "כומתית - Galerina", path: "galerina" },
   { label: "כישורית - Colus", path: "colus" },
   { label: "כלונסית - Battarrea", path: "battarrea" },
+  { label: "כמהת חולות - Terfesia", path: "terfesia" },
+  { label: "כמהת יער - Tuber", path: "tuber" },
   { label: "כרסנית - Macowanites", path: "macowanites" },
   { label: "לבדית - Xerocomus", path: "xerocomus" },
   { label: "לבקנית - Leucoagaricus", path: "leucoagaricus" },
   { label: "להבית - Flammulina", path: "flammulina" },
   { label: "לחית - Hygrocybe", path: "hygrocybe" },
+  { label: "לחלחה - Hygrophorus", path: "hygrophorus" },
   { label: "ליבנית - Leucocoprinus", path: "leucocoprinus" },
   { label: "לשונית - Geoglossum", path: "geoglossum" },
   { label: "מדפית - Trametes", path: "trametes" },
   { label: "מטריינית - Lepiota", path: "lepiota" },
   { label: "מטריינית - chamaemyces", path: "chamaemyces" },
-  { label: "מיטרנית - Macrolepiota", path: "macrolepiota" },
+  { label: "מטרנית - Macrolepiota", path: "macrolepiota" },
   { label: "מניפתית - Thelephora", path: "thelephora" },
   { label: "מצילה - Cyathus", path: "cyathus" },
   { label: "מרדעית - Leptopodia", path: "leptopodia" },
@@ -1354,7 +1354,12 @@ export const types = [
   { label: "נקובית - Laetiporus", path: "laetiporus" },
   { label: "נרתיקנית - Volvariella", path: "volvariella" },
   { label: "סדנית - Podaix", path: "podaix" },
+  { label: "סוככית - Tubaria", path: "tubaria" },
+  { label: "סוליינית - Coriolopsis", path: "coriolopsis" },
+  { label: "סיבית - Inocybe", path: "inocybe" },
+  { label: "סידית - Limacella", path: "limacella" },
   { label: "ספלונית - Sarcoscypha", path: "sarcoscypha" },
+  { label: "סרקודון - Sarcodon", path: "sarcodon" },
   { label: "עורית - Scleroderma", path: "scleroderma" },
   { label: "עציונית - Xylaria", path: "xylaria" },
   { label: "עציצית - Leucocoprinus", path: "leucocoprinus" },
@@ -1364,13 +1369,15 @@ export const types = [
   { label: "פטרה - Atheniella", path: "atheniella" },
   { label: "פטרה - Hemimycena", path: "hemimycena" },
   { label: "פינית - Phallus", path: "phallus" },
+  { label: "פנכית - Barlaea", path: "barlaea" },
+  { label: "פסיפסית - Pisolithus", path: "pisolithus" },
   { label: "פקועה - Agaricus", path: "agaricus" },
   { label: "פקעית - Rizopogon", path: "rizopogon" },
   { label: "פרגודית - Vascellum", path: "vascellum" },
   { label: "צבעונית - Panaeolus", path: "panaeolus" },
   { label: "ציצנית - Hebeloma", path: "hebeloma" },
   { label: "צמדית - Hymenopellis", path: "hymenopellis" },
-  { label: "צמודית - phellinus", path: "phellinus" },
+  { label: "צמודית - Fuscoporia", path: "fuscoporia" },
   { label: "צנומה - Marasmius", path: "marasmius" },
   { label: "צנומית - Marasmiellus", path: "marasmiellus" },
   { label: "קופסית - Geopyxis", path: "geopyxis" },
@@ -1380,6 +1387,7 @@ export const types = [
   { label: "קערורית - Marcelleina", path: "marcelleina" },
   { label: "קערית - Sarcosphaera", path: "sarcosphaera" },
   { label: "קרישית - Tremella", path: "tremella" },
+  { label: "קרנית - Calocera", path: "calocera" },
   { label: "קשוטית - Inonotus", path: "inonotus" },
   { label: "קשיחית - Stereum", path: "stereum" },
   { label: "קשקשנית - Pholiota", path: "pholiota" },
@@ -1394,6 +1402,8 @@ export const types = [
   { label: "שלהבת - Pyronema", path: "pyronema" },
   { label: "שלחופית - Hydronocybe", path: "hydronocybe" },
   { label: "שסועית - Schizophyllum", path: "schizophyllum" },
+  { label: "שעירית - Tricholomella", path: "tricholomella" },
   { label: "שקועית - Geopora", path: "geopora" },
+  { label: "שרועית - Tapinella", path: "tapinella" },
   { label: "שרפית - Laccaria", path: "laccaria" },
 ];

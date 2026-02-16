@@ -7,12 +7,15 @@ import shavririt2 from "../../../assets/images/shavririt2.jpeg";
 import shavririt3 from "../../../assets/images/shavririt3.jpeg";
 import shavririt4 from "../../../assets/images/shavririt4.jpeg";
 import shavririt5 from "../../../assets/images/shavririt5.jpeg";
-import shavririt6 from "../../../assets/images/shavririt6.jpeg";
+import shavririt20 from "../../../assets/images/shavririt20.jpeg";
 import shavririt7 from "../../../assets/images/shavririt7.jpeg";
 import shavririt8 from "../../../assets/images/shavririt8.jpeg";
 import shavririt9 from "../../../assets/images/shavririt9.jpeg";
 import shavririt10 from "../../../assets/images/shavririt10.jpeg";
 import shavririt11 from "../../../assets/images/shavririt11.jpeg";
+import shavririt40 from "../../../assets/images/shavririt40.jpeg";
+import shavririt21 from "../../../assets/images/shavririt21.jpeg";
+import shavririt22 from "../../../assets/images/shavririt22.jpeg";
 import BackButton from "../../backButton";
 
 const Shavririt = () => {
@@ -107,7 +110,7 @@ const Shavririt = () => {
               </p>
             </div>
             <div className="imgWrapper">
-              <LazyLoadImage src={shavririt6} alt="שברירית" />
+              <LazyLoadImage src={shavririt20} alt="שברירית" />
               <p>
                 <MultiLingualContent contentID="shavriritImg6" />
               </p>
@@ -148,6 +151,37 @@ const Shavririt = () => {
               <LazyLoadImage src={shavririt9} alt="שברירית" />
               <p>
                 <MultiLingualContent contentID="shavriritImg9" />
+              </p>
+            </div>
+          </div>
+          <p>
+            <b>
+              <MultiLingualContent contentID="shavriritText141Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="shavriritText142" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="shavriritText143" />
+          </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <LazyLoadImage src={shavririt40} alt="שברירית" />
+              <p>
+                <MultiLingualContent contentID="shavriritImg144" />
+              </p>
+            </div>
+            <div className="imgWrapper">
+              <LazyLoadImage src={shavririt21} alt="שברירית" />
+              <p>
+                <MultiLingualContent contentID="shavriritImg145" />
+              </p>
+            </div>
+            <div className="imgWrapper">
+              <LazyLoadImage src={shavririt22} alt="שברירית" />
+              <p>
+                <MultiLingualContent contentID="shavriritImg146" />
               </p>
             </div>
           </div>

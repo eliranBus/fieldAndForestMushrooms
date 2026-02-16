@@ -15,6 +15,26 @@ import Tzivonit from "./components/typesAndSpecies/sub-pages/Tzivonit";
 import WeatherConditions from "./components/information/informationSubPages/WeatherConditions";
 import Hadurit from "./components/typesAndSpecies/sub-pages/Hadurit";
 import Torrendia from "./components/typesAndSpecies/sub-pages/Torrendia";
+import ToxicWhiteMushrooms from "./components/information/informationSubPages/ToxicWhiteMushrooms";
+import Substances from "./components/information/informationSubPages/Substances";
+import News from "./components/news/News";
+import Bakbukanit from "./components/typesAndSpecies/sub-pages/Bakbukanit";
+import Golshanit from "./components/typesAndSpecies/sub-pages/Golshanit";
+import Lachlacha from "./components/typesAndSpecies/sub-pages/Lachlacha";
+import Sivit from "./components/typesAndSpecies/sub-pages/Sivit";
+import Sochachit from "./components/typesAndSpecies/sub-pages/Sochachit";
+import Sarcodon from "./components/typesAndSpecies/sub-pages/Sarcodon";
+import Karnit from "./components/typesAndSpecies/sub-pages/Karnit";
+import Sruit from "./components/typesAndSpecies/sub-pages/Sruit";
+import Psifasit from "./components/typesAndSpecies/sub-pages/Psifasit";
+import AlbinoMushroom from "./components/information/sub-pages/AlbinoMushroom";
+import Kmehat from "./components/typesAndSpecies/sub-pages/Kmehat";
+import KmehatHolot from "./components/typesAndSpecies/sub-pages/KmehatHolot";
+import Seirit from "./components/typesAndSpecies/sub-pages/Seirit";
+import Sidit from "./components/typesAndSpecies/sub-pages/Sidit";
+import Panachit from "./components/typesAndSpecies/sub-pages/Panachit";
+import Doranit from "./components/typesAndSpecies/sub-pages/Doranit";
+import Solyanit from "./components/typesAndSpecies/sub-pages/Solyanit";
 
 const storageLanguage = getStorageLanguage();
 
@@ -697,6 +717,9 @@ function App() {
             >
               <InformationSubPage subtitleName="literature" />
             </Route>
+            <Route exact path="/news">
+              <News />
+            </Route>
             <Route
               exact
               path="/information/nutritional-and-medicinal-value-for-humans"
@@ -766,6 +789,18 @@ function App() {
             >
               <Absorb />
             </Route>
+            <Route
+              exact
+              path="/information/toxic-species-and-guidelines-for-treatment/toxic-white-mushrooms"
+            >
+              <ToxicWhiteMushrooms />
+            </Route>
+            <Route
+              exact
+              path="/information/nutritional-and-medicinal-value-for-humans/substances-and-their-effect-in-medicine"
+            >
+              <Substances />
+            </Route>
             <Route exact path="/information/various-phenomena">
               <InformationSubPage subtitleName="variousPhenomena" />
             </Route>
@@ -774,6 +809,9 @@ function App() {
               path="/information/various-phenomena/succation-in-fungi"
             >
               <SuccessionInMushrooms />
+            </Route>
+            <Route exact path="/information/various-phenomena/albino-mushroom">
+              <AlbinoMushroom />
             </Route>
             <Route
               exact
@@ -876,9 +914,87 @@ function App() {
             </Route>
             <Route
               exact
+              path="/types-and-species/type-identification/type/tuber"
+            >
+              <Kmehat />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/terfesia"
+            >
+              <KmehatHolot />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/tricholomella"
+            >
+              <Seirit />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/pilobolus"
+            >
+              <Bakbukanit />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/rhodocybe"
+            >
+              <Golshanit />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/hygrophorus"
+            >
+              <Lachlacha />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/inocybe"
+            >
+              <Sivit />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/limacella"
+            >
+              <Sidit />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/tubaria"
+            >
+              <Sochachit />
+            </Route>
+            <Route
+              exact
               path="/types-and-species/type-identification/type/sarcosphaera"
             >
               <Kearit />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/sarcodon"
+            >
+              <Sarcodon />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/calocera"
+            >
+              <Karnit />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/tapinella"
+            >
+              <Sruit />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/pisolithus"
+            >
+              <Psifasit />
             </Route>
             <Route
               exact
@@ -1176,6 +1292,30 @@ function App() {
             </Route>
             <Route
               exact
+              path="/types-and-species/type-identification/type/xerocoprinus"
+            >
+              <Dioit />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/coriolopsis"
+            >
+              <Solyanit />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/barlaea"
+            >
+              <Panachit />
+            </Route>
+            <Route
+              exact
+              path="/types-and-species/type-identification/type/mycenastrum"
+            >
+              <Doranit />
+            </Route>
+            <Route
+              exact
               path="/types-and-species/type-identification/type/patara"
             >
               <Patara />
@@ -1278,7 +1418,7 @@ function App() {
             </Route>
             <Route
               exact
-              path="/types-and-species/type-identification/type/phellinus"
+              path="/types-and-species/type-identification/type/fuscoporia"
             >
               <Tzmudit />
             </Route>

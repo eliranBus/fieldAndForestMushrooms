@@ -5,6 +5,7 @@ import MultiLingualContent from "../../../languages/MultiLingualContent";
 import haririt1 from "../../../assets/images/haririt1.jpg";
 import haririt2 from "../../../assets/images/haririt2.jpg";
 import haririt3 from "../../../assets/images/haririt3.jpg";
+import haririt20 from "../../../assets/images/haririt20.jpeg";
 import BackButton from "../../backButton";
 
 const Haririt = () => {
@@ -73,6 +74,12 @@ const Haririt = () => {
           <div className="informationImages">
             <div className="imgWrapper">
               <LazyLoadImage src={haririt3} alt="חרירית" />
+              <p>
+                <MultiLingualContent contentID="hariritImg3" />
+              </p>
+            </div>
+            <div className="imgWrapper">
+              <LazyLoadImage src={haririt20} alt="חרירית" />
               <p>
                 <MultiLingualContent contentID="hariritImg3" />
               </p>

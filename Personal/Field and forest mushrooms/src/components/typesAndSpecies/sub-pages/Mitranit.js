@@ -13,10 +13,10 @@ const Mitranit = () => {
   return (
     <div className="inner-section" id="mitranit">
       <Helmet>
-        <title>פטרידע - הפטריה מיטרנית</title>
+        <title>פטרידע - הפטריה מטרנית</title>
         <meta
           name="description"
-          content="הפטריה מיטרנית - Macrolepiota: תאור, זיהוי ותמונות"
+          content="הפטריה מטרנית - Macrolepiota: תאור, זיהוי ותמונות"
         />
       </Helmet>
       <BackButton path="/#types-and-species" />

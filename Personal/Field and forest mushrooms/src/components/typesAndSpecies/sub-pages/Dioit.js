@@ -27,6 +27,10 @@ import dioit21 from "../../../assets/images/dioit21.jpg";
 import dioit22 from "../../../assets/images/dioit22.jpg";
 import dioit23 from "../../../assets/images/dioit23.jpg";
 import dioit24 from "../../../assets/images/dioit24.jpg";
+import dioit30 from "../../../assets/images/dioit30.jpeg";
+import dioit31 from "../../../assets/images/dioit31.jpeg";
+import dioit32 from "../../../assets/images/dioit32.jpeg";
+import dioit33 from "../../../assets/images/dioit33.jpeg";
 
 const Dioit = () => {
   return (
@@ -176,9 +180,6 @@ const Dioit = () => {
           </p>
           <p>
             <MultiLingualContent contentID="dioitText13" />
-          </p>
-          <p>
-            <MultiLingualContent contentID="dioitText14" />
           </p>
         </div>
         <div className="informationImages">
@@ -360,6 +361,48 @@ const Dioit = () => {
             <LazyLoadImage src={dioit24} alt="דיואית" />
             <p>
               <MultiLingualContent contentID="dioitImg24" />
+            </p>
+          </div>
+        </div>
+        <div className="informationText">
+          <p>
+            <b>
+              <MultiLingualContent contentID="dioitText25Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText26" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText27" />
+          </p>
+          <p>
+            <MultiLingualContent contentID="dioitText28" />
+          </p>
+        </div>
+        <div className="informationImages">
+          <div className="imgWrapper">
+            <LazyLoadImage src={dioit30} alt="דיואית" />
+            <p>
+              <MultiLingualContent contentID="dioitImg30" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <LazyLoadImage src={dioit31} alt="דיואית" />
+            <p>
+              <MultiLingualContent contentID="dioitImg31" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <LazyLoadImage src={dioit32} alt="דיואית" />
+            <p>
+              <MultiLingualContent contentID="dioitImg32" />
+            </p>
+          </div>
+          <div className="imgWrapper">
+            <LazyLoadImage src={dioit33} alt="דיואית" />
+            <p>
+              <MultiLingualContent contentID="dioitImg33" />
             </p>
           </div>
         </div>

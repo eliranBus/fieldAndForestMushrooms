@@ -8,6 +8,7 @@ import dfunit3 from "../../../assets/images/dfunit3.jpg";
 import dfunit4 from "../../../assets/images/dfunit4.jpg";
 import dfunit5 from "../../../assets/images/dfunit5.jpg";
 import dfunit6 from "../../../assets/images/dfunit6.jpg";
+import dfunit50 from "../../../assets/images/dfunit50.jpeg";
 import BackButton from "../../backButton";
 
 const Dfunit = () => {
@@ -149,6 +150,14 @@ const Dfunit = () => {
           <p>
             <MultiLingualContent contentID="dfunitText22" />
           </p>
+          <div className="informationImages">
+            <div className="imgWrapper">
+              <LazyLoadImage src={dfunit50} alt="דפונית" />
+              <p>
+                <MultiLingualContent contentID="dfunitImg1" />
+              </p>
+            </div>
+          </div>
         </div>
       </>
     </div>

@@ -35,10 +35,10 @@ const Gvionit = () => {
           <br />
           <p>
             <MultiLingualContent contentID="gvionitText21" />
-          </p>
-          <br />
-          <p>
-            <MultiLingualContent contentID="gvionitText3" />
+            <b>
+              <MultiLingualContent contentID="gvionitText22Bold" />
+            </b>
+            <MultiLingualContent contentID="gvionitText23" />
           </p>
           <br />
           <p>

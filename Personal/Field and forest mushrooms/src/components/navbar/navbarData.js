@@ -25,26 +25,26 @@ export const navItems = [
         children: [
           {
             id: 1,
+            title: "micologists",
+            path: "/information/scientific-collection-and-micologists-in-israel/micologists-in-israel",
+            cName: "submenu-item",
+          },
+          {
+            id: 2,
             title: "sceintificCollectionValue",
             path: "/information/scientific-collection-and-micologists-in-israel/sceintific-collection-value-tlv-university",
             cName: "submenu-item",
           },
           {
-            id: 2,
+            id: 3,
             title: "sceintificCollectionMicology",
             path: "/information/scientific-collection-and-micologists-in-israel/sceintific-collection-value-in-micology",
             cName: "submenu-item",
           },
           {
-            id: 3,
+            id: 4,
             title: "geneticalTests",
             path: "/information/scientific-collection-and-micologists-in-israel/genetical-tests",
-            cName: "submenu-item",
-          },
-          {
-            id: 4,
-            title: "micologists",
-            path: "/information/scientific-collection-and-micologists-in-israel/micologists-in-israel",
             cName: "submenu-item",
           },
         ],
@@ -57,14 +57,14 @@ export const navItems = [
         children: [
           {
             id: 1,
-            title: "howToGrowMushrooms",
-            path: "/information/mushroom-growing-buying-and-selling/how-to-grow-edible-mushrooms-at-home",
+            title: "growingForMedicine",
+            path: "/information/mushroom-growing-buying-and-selling/commersial-growing-for-consumption-and-medicine",
             cName: "submenu-item",
           },
           {
             id: 2,
-            title: "growingForMedicine",
-            path: "/information/mushroom-growing-buying-and-selling/commersial-growing-for-consumption-and-medicine",
+            title: "howToGrowMushrooms",
+            path: "/information/mushroom-growing-buying-and-selling/how-to-grow-edible-mushrooms-at-home",
             cName: "submenu-item",
           },
         ],
@@ -111,8 +111,8 @@ export const navItems = [
         children: [
           {
             id: 1,
-            title: "whatIsTaxonomy",
-            path: "/information/taxonomy/what-is-taxonomy",
+            title: "fungiAndMold",
+            path: "/information/taxonomy/fungi-and-mold",
             cName: "submenu-item",
           },
           {
@@ -123,8 +123,8 @@ export const navItems = [
           },
           {
             id: 3,
-            title: "fungiAndMold",
-            path: "/information/taxonomy/fungi-and-mold",
+            title: "whatIsTaxonomy",
+            path: "/information/taxonomy/what-is-taxonomy",
             cName: "submenu-item",
           },
         ],
@@ -137,14 +137,14 @@ export const navItems = [
         children: [
           {
             id: 1,
-            title: "collectingRules",
-            path: "/information/collectingAndPhotographing/the-rules-for-collecting-correctly-in-nature",
+            title: "collectingAndDrying",
+            path: "/information/collectingAndPhotographing/collecting-and-drying-for-consumption",
             cName: "submenu-item",
           },
           {
             id: 2,
-            title: "collectingAndDrying",
-            path: "/information/collectingAndPhotographing/collecting-and-drying-for-consumption",
+            title: "collectingRules",
+            path: "/information/collectingAndPhotographing/the-rules-for-collecting-correctly-in-nature",
             cName: "submenu-item",
           },
           {
@@ -223,14 +223,14 @@ export const navItems = [
         children: [
           {
             id: 1,
-            title: "substances",
-            path: "/information/nutritional-and-medicinal-value-for-humans/substances-and-their-effect-in-medicine",
+            title: "smellAndTasteOfMushrooms",
+            path: "/information/nutritional-and-medicinal-value-for-humans/smell-and-taste-of-mushrooms",
             cName: "submenu-item",
           },
           {
             id: 2,
-            title: "adibles",
-            path: "/information/nutritional-and-medicinal-value-for-humans/edible-species-in-israel",
+            title: "substances",
+            path: "/information/nutritional-and-medicinal-value-for-humans/substances-and-their-effect-in-medicine",
             cName: "submenu-item",
           },
           {
@@ -241,8 +241,14 @@ export const navItems = [
           },
           {
             id: 4,
-            title: "smellAndTasteOfMushrooms",
-            path: "/information/nutritional-and-medicinal-value-for-humans/smell-and-taste-of-mushrooms",
+            title: "adibles",
+            path: "/information/nutritional-and-medicinal-value-for-humans/edible-species-in-israel",
+            cName: "submenu-item",
+          },
+          {
+            id: 5,
+            title: "mako",
+            path: "https://www.mako.co.il/Tagit/%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA",
             cName: "submenu-item",
           },
         ],
@@ -289,6 +295,12 @@ export const navItems = [
           },
           {
             id: 2,
+            title: "toxicWhiteMushrooms",
+            path: "/information/toxic-species-and-guidelines-for-treatment/toxic-white-mushrooms",
+            cName: "submenu-item",
+          },
+          {
+            id: 3,
             title: "absorb",
             path: "/information/toxic-species-and-guidelines-for-treatment/mushrooms-absorb-dangerous-substances",
             cName: "submenu-item",
@@ -303,26 +315,26 @@ export const navItems = [
         children: [
           {
             id: 1,
-            title: "witchCircles",
-            path: "/information/various-phenomena/the-witch-circles",
-            cName: "submenu-item",
-          },
-          {
-            id: 2,
             title: "tearDropsInMushrooms",
             path: "/information/various-phenomena/teardrop-in-mushrooms",
             cName: "submenu-item",
           },
           {
+            id: 2,
+            title: "sporeSpreading",
+            path: "/information/various-phenomena/spore-spreading",
+            cName: "submenu-item",
+          },
+          {
             id: 3,
-            title: "colorChanges",
-            path: "/information/various-phenomena/color-changes-external-and-internal",
+            title: "glowingInMushrooms",
+            path: "/information/various-phenomena/glowing-in-mushrooms",
             cName: "submenu-item",
           },
           {
             id: 4,
-            title: "mushroomsAfterFire",
-            path: "/information/various-phenomena/mushrooms-after-fire",
+            title: "witchCircles",
+            path: "/information/various-phenomena/the-witch-circles",
             cName: "submenu-item",
           },
           {
@@ -333,20 +345,20 @@ export const navItems = [
           },
           {
             id: 6,
-            title: "glowingInMushrooms",
-            path: "/information/various-phenomena/glowing-in-mushrooms",
+            title: "mushroomsAfterFire",
+            path: "/information/various-phenomena/mushrooms-after-fire",
             cName: "submenu-item",
           },
           {
             id: 7,
-            title: "sporeSpreading",
-            path: "/information/various-phenomena/spore-spreading",
+            title: "parasiticPlantsOnFungi",
+            path: "/information/various-phenomena/parasitic-plants-on-fungi",
             cName: "submenu-item",
           },
           {
             id: 8,
-            title: "parasiticPlantsOnFungi",
-            path: "/information/various-phenomena/parasitic-plants-on-fungi",
+            title: "albinoMushroom",
+            path: "/information/various-phenomena/albino-mushroom",
             cName: "submenu-item",
           },
         ],
@@ -363,6 +375,12 @@ export const navItems = [
     id: 5,
     title: "literature",
     path: "#literature",
+    cName: "nav-text-link literature",
+  },
+  {
+    id: 6,
+    title: "news",
+    path: "/news",
     cName: "nav-text-link literature",
   },
 ];

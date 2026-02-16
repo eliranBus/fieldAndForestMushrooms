@@ -4,6 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import MultiLingualContent from "../../../languages/MultiLingualContent";
 import avnatit1 from "../../../assets/images/avnatit1.jpg";
 import avnatit2 from "../../../assets/images/avnatit2.jpg";
+import avnatit5 from "../../../assets/images/avnatit5.jpeg";
 import BackButton from "../../backButton";
 
 const Avnatit = () => {
@@ -59,6 +60,23 @@ const Avnatit = () => {
                 <MultiLingualContent contentID="avnatitImg2" />
               </p>
             </div>
+            <br />
+          </div>
+          <p>
+            <b>
+              <MultiLingualContent contentID="avnatitText8Bold" />
+            </b>
+          </p>
+          <p>
+            <MultiLingualContent contentID="avnatitText9" />
+          </p>
+          <br />
+          <br />
+          <div className="imgWrapper">
+            <LazyLoadImage src={avnatit5} alt="אבנטית" />
+            <p>
+              <MultiLingualContent contentID="avnatitImg3" />
+            </p>
           </div>
         </div>
       </>
